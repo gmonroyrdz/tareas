@@ -25,6 +25,7 @@
         <mat-label>Nueva tarea...</mat-label>
         <input matInput [(ngModel)]="newTaskTitle" (keyup.enter)="addTask()" maxlength="80" />
       </mat-form-field>
+      
 
       <button mat-fab color="primary" (click)="addTask()" aria-label="Agregar tarea">
         <mat-icon>add</mat-icon>
