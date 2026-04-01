@@ -1,0 +1,12 @@
+@use '@angular/material' as mat;
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Round');
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
